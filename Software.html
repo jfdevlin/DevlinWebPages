@@ -1,0 +1,452 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<head>
+     <title>J.F. Devlin Research</title>
+</head>
+
+<body lang=EN-CA link=darkblue vlink=darkgreen style='tab-interval:.5in' alink=darkblue , ,>
+
+<table border="0", cellpadding="10" width="900">
+<tr>
+    <td colspan="2"><img src="Softwarefolder/DevlinSoftwareHeader.gif" alt="Information for Students"></td>
+</tr>
+<tr>
+    <td colspan="2">
+        <table border="0" cellpadding="10" width=950>
+        <tr>
+            <td align="center" bgcolor="lightgray">
+                   <a href="index.html"><font face="Arial" color="darkgreen"><b>Homepage</b></font></a>
+            </td>
+            <td align="center" bgcolor="lightgray">
+                <a href="Research.html"><font color="darkgreen" face="Arial"><b>Research</b></font></a>
+            </td>
+
+            <td align="center" bgcolor="lightgray">
+                <a href="Publications.html"><font color="darkgreen" face="Arial"><b>Publications</b></font></a>
+            </td>
+
+            <td align="center" bgcolor="darkblue">
+                <a href="Software.html"><font color="white" face="Arial"><b>Software</b></font></a>
+            </td>
+
+            <td align="center" bgcolor="lightgray">
+                <a href="Teaching.html"><font color="darkgreen" face="Arial"><b>Teaching</b></font></a>
+            </td>
+
+            <td align="center" bgcolor="lightgray">
+                <a href="https://geo.ku.edu/graduate-admissions">
+                <font color="darkgreen" face="Arial"><b>Prospective Students</b></font></a>
+            </td>
+
+            <td align="center" bgcolor="lightgray">
+                   <a href="https://hydrogeo.ku.edu"><font face="Arial" color="darkgreen"><b>
+                        KU Hydrogeology</b></font></a>
+            </td>
+        </tr>           
+        </table>
+    </td>
+
+
+</tr>
+<tr>
+    <!--<td background="Graphics/BlueStrip.gif">&nbsp</td>-->
+    <td></td>
+
+    <td>
+        <font color="darkblue">
+        <H2>Page Contents</H2>
+        <ol type=i>
+            <li><a href="#Disclaimer">Disclaimer</a></li>
+            <li><a href="#Gradient">Spreadsheet for calculating potentiometric surface gradient and direction</a></li>
+            <li><a href="#Kinetics">Compiled fortran programs using simplex optimization for biodegradation kinetics</a></li>
+            <li><a href="#erf">Excel spreadsheet to calculate and compare approximations of the error function</a></li>
+            <li><a href="#XLMonte">Excel spreadsheet that performs Monte Carlo simulations on a 3D plume</a></li>
+            <li><a href="#VelProbePE">Excel spreadsheet to assist PVP data processing</a></li>
+            <li><a href="#BEARKIMPE">Excel spreadsheet to assist with the characterization of granular iron in column tests</a></li>
+            <li><a href="#HYDROGEOSIEVEXL">Excel spreadsheet for estimating <i>K</i> from grain size analyses</a></li>
+            <li><a href="#HYDROGEOESTIMATORXL">Excel spreadsheet for analyzing flow systems and groundwater velocity from water level data</a></li>
+        </ol>
+
+        <P>
+        <a name="Disclaimer"><H2>Disclaimer</H2></a>
+        The software available for download on this page is provided free of charge on an "as is" basis.  Users may copy,
+        and distribute the software for free, but they may not sell it.  The software comes with no written or implied
+        guarantees and the author accepts no responsibility for any errors or other problems that arise from its use.
+        <br><br>
+        To download, right click on the filename and and select 'Save Target as' or 'Save Link as' from the menu.
+        </P>
+
+        <!-- Start Table for software product -->
+        <font color="darkblue" size=5>
+              <a name="Gradient"><b>Spreadsheet for Calculating Piezometric Surface Gradient and Direction</b></a>
+        </font>
+        <table border="1", bordercolor="darkblue" rules=all frame=void cellpadding="10" width="890">
+               <tr><th colspan=2>
+               </th></tr>
+               <tr>
+                   <td rowspan=2 width=190>
+                          <a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/Gradient.xls"><font color="green">Gradient.xls</font></a>
+                   </td>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Description:</b></i>
+                       <br><br>
+                       Excel file containing a spreadsheet that calculates hydraulic
+                       gradient and direction of a piezometric surface or water table head data from up to
+                       20 wells, assuming a planar surface.</font>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Published reference:</b></i>
+                       <br><br>
+                       Devlin, J.F. 2003. A spreadsheet method of estimating best fit hydraulic gradients
+                       using head data from multiple wells. Ground Water, v. 41, no. 3, 316-320.
+                       </font>
+                   </td>
+               </tr>
+        </table>
+        <br><br>
+        <!-- End Table for software product -->
+
+        <!-- Start Table for software product -->
+        <font color="darkblue" size=5>
+              <a name="Kinetics"><b>Compiled Fortran Programs Using Simplex Optimization for Biodegradation Kinetics</b></a>
+        </font>
+        <table border="1", bordercolor="darkblue" rules=all frame=void cellpadding="10" width="890">
+               <tr><th colspan=2>
+               </th></tr>
+               <tr>
+                   <td rowspan=2 width=190>
+                          <a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/Miki.zip"><font color="green">Miki.zip</font></a>
+                   </td>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Description:</b></i>
+                       <br><br>
+                       Zip file containing DOS based executables for fitting microbial kinetic data.  Download the file and
+                       rename it Miki.zip to access the contents.  Fitting routines are given for Michaelis Menten kinetics
+                       Monod kinetics, logistic kinetics, and more.  The routines use simplex optimization for fitting, and
+                       a bisection routine to permit the integrated solutions to be solved directly for concentration.</font>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Published reference:</b></i>
+                       <br><br>
+                       Goudar, C.T., Devlin, J.F. 2001. Nonlinear estimation of enzyme and microbial kinetic
+                        parameters from progress curve analysis. Water Environment Research, 73, 260-265.
+                       </font>
+                   </td>
+               </tr>
+        </table>
+        <br><br>
+        <!-- End Table for software product -->
+
+        <!-- Start Table for software product -->
+        <font color="darkblue" size=5>
+              <a name="erf"><b>Excel spreadsheet to calculate and compare approximations of the error function</b></a>
+        </font>
+        <table border="1", bordercolor="darkblue" rules=all frame=void cellpadding="10" width="890">
+               <tr><th colspan=2>
+               </th></tr>
+               <tr>
+                   <td rowspan=2 width=190>
+                          <a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/erfcompareweb.xlsm"><font color="green">erfcompareweb.xlsm</font></a>
+                   </td>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Description:</b></i>
+                       <br><br>
+                       <font color="darkblue">
+                       Excel file (XL2010) containing spreadsheets that calculate the error function using 7 different approximations,
+                       including the erf function that comes with Excel, compares them against the series expansion approximation and then
+                       demonstrates their utility in a transport equation.  Instructions for use are given in the workbook.</font>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Published reference:</b></i>
+                       <br><br>
+                       Devlin, J.F., Brookfield, A., Huang, B., Schillig, P.C. 2012. Using the Domenico solution to teach
+                       contaminant transport modeling, Journal of Geoscience Education, v. 60, no. 2, 123-132.
+                       </font>
+                   </td>
+               </tr>
+        </table>
+        <br><br>
+        <!-- End Table for software product -->
+
+        <!-- Start Table for software product -->
+        <font color="darkblue" size=5>
+              <a name="XLMonte"><b>Excel spreadsheet that performs Monte Carlo simulations on a 3D plume</b></a>
+        </font>
+        <table border="1", bordercolor="darkblue" rules=all frame=void cellpadding="10" width="890">
+               <tr><th colspan=2>
+               </th></tr>
+               <tr>
+                   <td rowspan=2 width=190>
+                          <a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/DomenicoFullMonteCarloWeb.xlsm"><font color="green">DomenicoFullMonteCarloWeb.xlsm</font></a>
+                   </td>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Description:</b></i>
+                       <br><br>
+                       Excel file (XL 2010) containing a spreadsheet that calculates and displays 2D plumes using
+                       The Domenico Solution.  The spreadsheet contains visual basic code that permits the calculation of up to 1000
+                       realizations of the plumes accounting for the uncertainties of up to 5 transport parameters (Co, x-, y-, z-dispersivities,
+                       and velocity).  Histograms of concentrations at up to 4 locations in the plume are automatically generated.  Instructions
+                       for using the spreadsheet are given in the file.</font>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Published reference:</b></i>
+                       <br><br>
+                       Devlin, J.F., Brookfield, A., Huang, B., Schillig, P.C. 2012. Using the Domenico solution to teach
+                       contaminant transport modeling, Journal of Geoscience Education, v. 60, no. 2, 123-132.
+                       </font>
+                   </td>
+               </tr>
+        </table>
+        <br><br>
+        <!-- End Table for software product -->
+
+        <!-- Start Table for software product -->
+        <font color="darkblue" size=5>
+              <a name="VelProbePE"><b>Excel spreadsheet to assist PVP data processing</b></a>
+        </font>
+        <table border="1", bordercolor="darkblue" rules=all frame=void cellpadding="10" width="890">
+               <tr><th colspan=2>
+               </th></tr>
+               <tr>
+                   <td rowspan=2 width=190>
+                          <a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/VelproMMPack.zip"><font color="green">VelproMMPack.zip</font></a>
+                   </td>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Description:</b></i>
+                       <br><br>
+                       Excel file with VBA code to assist with the processing of PVP data collected with a
+                       <a href="https://www.campbellsci.com/cr1000"> Cambpell Scientific CR1000 data logger</a>.
+                       Data from individual channels (PVP detectors) are parsed into columns
+                       in individual worksheets, the data fitted with the transport equation to estimate apparent
+                       velocities on the probe surface, and the apparent velocities are converted to ambient groundwater
+                       velocities in a final summary worksheet.  The various steps are interactive and include useful
+                       features such as a baseline correction to facilitate data processing.  A user manual for the
+                       original version (2.2.2) can be obtained upon request from the program author,
+                       <a href="mailto:schill1ou@gmail.com"> Peter Schillig.</a>
+                       <br><br>
+                       VelprobePE_MM is an updated version of the VelprobePE and VelprobePE3 programs, programed with Excel 2010.
+                       The version posted here (<i>v. 3.1, beta-c</i>, or <i>VeloproMM</i> July 14, 2018) performs the same
+                       tasks as the earlier versions, but is programmed with advanced userforms that simplify dataprocessing,
+                       including the addition of algorithms for the use of method of moments to estimate tracer velocity from
+                       breakthrough curves, and to perform the repair of baselines that suffer from 'jumps' or similar
+                       discontinuities and anomalies due to electrical surges in power sources or by natural phenomena.
+                       Details of the revisions are listed in the README file accompanying the program.</font>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Published reference:</b></i>
+                       <br><br>
+                       Schillig, P.C. 2012. VelProbePE: An Automated Spreadsheet Program for Interpreting Point Velocity
+                       Probe Breakthrough Curves.  Computers & Geosciences, v. 39, 161-170.
+                       </font>
+                   </td>
+               </tr>
+        </table>
+        <br><br>
+        <!-- End Table for software product -->
+
+        <!-- Start Table for software product -->
+        <font color="darkblue" size=5>
+              <a name="BEARKIMPE"><b>Excel spreadsheet to assist granular iron characterization from column tests</b></a>
+        </font>
+        <table border="1", bordercolor="darkblue" rules=all frame=void cellpadding="10" width="890">
+               <tr><th colspan=2>
+               </th></tr>
+               <tr>
+                   <td rowspan=2 width=190>
+                          <a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/BEARKIMPE.zip"><font color="green">BEARKIMPE.zip</font></a>
+                   </td>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Description:</b></i>
+                       <br><br>
+                       Excel file with VBA code to assist with the processing of column data for the characterization
+                       of granular iron.  The zip file contains three files: 1) BEARKIMPE.XLSM, the original spreadheet
+                       with VBA code; 2) Inputtestfile.XLSX, containing sample input data suitable for import to BEARKIMPE.XLSM;
+                       3) ExampleBEARKIMPEforFigures.XLSM, containing a worked example of processed data, as presented in the
+                       article below. </font>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Published reference:</b></i>
+                       <br><br>
+                       Firdous, R., Devlin, J.F. 2014. BEARKIMPE: A VBA Excel program for Characterizing
+                       Granular Iron in Treatability Studies. Computers & Geosciences, v. 63, 54-61.
+                       </font>
+                   </td>
+               </tr>
+        </table>
+        <br><br>
+        <!-- End Table for software product -->
+
+        <!-- Start Table for software product -->
+        <font color="darkblue" size=5>
+              <a name="HYDROGEOSIEVEXL"><b>Excel spreadsheet for estimating <i>K</i> from grain size analyses</b></a>
+        </font>
+        <table border="1", bordercolor="darkblue" rules=all frame=void cellpadding="10" width="890">
+               <tr><th colspan=2>
+               </th></tr>
+               <tr>
+                   <td rowspan=2 width=190>
+                          <a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/HydrogeoSieveXL.xlsm"><font color="green">
+                          HydrogeoSieveXL.xlsm</font></a>
+                          <br><a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/HydrogeoSieveXL2-1.xlsm"><font color="green">
+                          HydrogeoSieveXL2-1.xlsm</font></a>   <br>
+                          <br><a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/HydrogeoSieveXL2-2.xlsm"><font color="green">
+                          HydrogeoSieveXL2-2.xlsm</font></a> <br>
+                          <br><a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/HydrogeoSieveXL2-3.xlsm"><font color="green">
+                          HydrogeoSieveXL2-3.xlsm</font></a> <br>
+                          <br><a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/HydrogeoSieveXL2-3UK.xlsm"><font color="green">
+                          HydrogeoSieveXL2-3UK.xlsm</font></a><br>
+                          <br><a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/HydrogeoSieveXL2-3-2.xlsm"><font color="green">
+                          HydrogeoSieveXL2-3-2.xlsm</a><br>
+                          <br><a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/HydrogeoSieveXL2-3-4.xlsm"><font color="green">
+                          HydrogeoSieveXL2-3-4.xlsm</font></a><br>
+                          <br><a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/HydrogeoSieveXL2-3-5.xlsm"><font color="green">
+                          HydrogeoSieveXL2-3-5.xlsm</font></a><br>
+                          <br><a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/HydrogeoSieveXL2-3-6.xlsm"><font color="green">
+                          HydrogeoSieveXL2-3-6.xlsm</font></a><br>
+                          <br><a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/HydrogeoSieveXL2-3-7.xlsm"><font color="green">
+                          HydrogeoSieveXL2-3-7.xlsm</font></a><br>
+                          <br><a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/HydrogeoSieveXL2-3-8.xlsm"><font color="green">
+                          HydrogeoSieveXL2-3-8.xlsm</font></a><br>
+                          <br><a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/HydrogeoSieveXL2-3-9.xlsm"><font color="green">
+                          HydrogeoSieveXL2-3-9.xlsm</font></a><br>
+                          <br><a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/HydrogeoSieveXL2-3-10.xlsm"><font color="green">
+                          HydrogeoSieveXL2-3-10.xlsm</font></a><br>
+                          </font>
+                   </td>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Description:</b></i>
+                       <br><br>
+                       Excel file with VBA code to assist with the processing of grain size curves to estimate hydraulic conductivity
+                       according to 15 different methods including those of Hazen, Terzaghi, and Kozeny-Carmen, as presented in the
+                       article below. <br>
+                       <br>August 30, 2015, file updated to correct a typo in the equations table.  The effective diameter in the
+                       Sauerbrei formula should read <i>d<sub>17</sub></i> instead of <i>d<sub>10</sub></i> as appears in the article.
+                       The code was correct in the original version.<br>
+                       <br>November 20, 2016, v2.2 released following a a comment and reply in the Hydrogeology Journal.  The new version adds
+                       the possibility of setting the effective grain diameter equal to the geometric mean diameter from the grain
+                       size analyses for the Kozeny, Terzaghi, Slichter and Barr <i>K</i> estimation equations.  The effective porosity
+                       is also calculated differently in these cases, as outlined in the comment and reply.<br>
+                       <br>May 28, 2017, v2.3 released to correct a missing grain size row in the histogram graphic. v2.3UK released to
+                       provide a grain size classification consistent with United Kingdom standards.<br>
+                       <br>November 31,2019, v2.3.2 released to include the Shepherd method.<br>
+                       <br>December 1, 2021, v.2.3.4 released correct a bug in the location of the Hazen method tick mark indicating validity.
+                       and a bug in the calculation of <i>d<sub>geometric</sub></i>.<br>
+                       <br>January 19, 2022, v2.3.5 released with a fix on the Report sheet graph and a statement to prevent the
+                       "Io" term in the Alyamani and Sen method from becoming negative.<br>
+                       <br> April 19, 2022, v2.3.6 released with a fix on the formula in cell L19, input screen, calculating "Io".<br>
+                       <br> July 1, 2022, v2.3.7 released with a fix on the Shephard criteria display and a cosmetic fix on the
+                       grain size distribution graph.<br>
+                       <br> October 27, 2022, v2.3.8 released to increase the number of sieves that can be run from 30 to 100.<br>
+                       <br> April 11, 2023, v2.3.9 released to correct the sign on phi.<br>
+                       <br> March 26, 2024, v2.3.10 released to correct a typo in the computed porosity value, introduced in v2.3.9
+                       </font>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Published reference:</b></i>
+                       <br><br>
+                       v.2.1<br>
+                       Devlin, J.F. 2015. HydrogeoSieveXL : an Excel-based tool to
+                       estimate hydraulic conductivity from grain size analysis.  Hydrogeology Journal, DOI 10.1007/s10040-015-1255-0.
+                       <br><br>
+                       v.2.2<br>
+                       Devlin, J.F. 2016. Reply to  "Comment on "HydrogeoSieveXL: an Excel-based tool to estimate hydraulic
+                       conductivity from grain-size analysis": report published in Hydrogeology Journal (2015) 23: 837-844 by J.F. Devlin",
+                       Hydrogeology Journal, DOI 10.1007/s10040-016-1510-z.
+                       </font>
+                   </td>
+               </tr>
+        </table>
+        <br><br>
+        <!-- End Table for software product -->
+         <!-- Start Table for software product -->
+        <font color="darkblue" size=5>
+              <a name="HYDROGEOESTIMATORXL"><b>Excel spreadsheet for analyzing flow fields and groundwater velocities from water level data </b></a>
+        </font>
+        <table border="1", bordercolor="darkblue" rules=all frame=void cellpadding="10" width="890">
+               <tr><th colspan=2>
+               </th></tr>
+               <tr>
+                   <td rowspan=2 width=190>
+                          <br><a href="https://jfdevlin.github.io/DevlinWebPages/Softwarefolder/HydroGeoEstimatorXLv2_2.xlsm"><font color="green">
+                          HydrogeoEstimatorXL.xlsm</font></a>
+                   </td>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Description:</b></i>
+                       <br><br>
+                       Excel file with VBA code to assist with the processing of water level data in two dimensions to visualize flow
+                       systems and patterns in groundwater velocity across sites.  Basic statistics are also calculated, as presented in the
+                       article below. v2.2 corrects an error in v2.1 concerning units conversion when working with transects.<br>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <font color="darkblue">
+                       <b><i>Published reference:</b></i>
+                       <br><br>
+                       Devlin, J.F., Schillig, P.C. 2017. HydrogeoEstimatorXL: An Excel-based tool for estimating
+                       hydraulic gradient magnitude and direction. Technical Note in the Hydrogeology Journal
+                       DOI 10.1007/s10040-016-1518-4.
+                       </font>
+                   </td>
+               </tr>
+        </table>
+        <br><br>
+        <!-- End Table for software product -->
+
+        <!--       <a name="Simplex"><H2>Compiled Fortran Programs Using Simplex Optimization for Parameter Fitting</H2></a> -->
+
+         <P>
+         Please refer to the <a href="https://geo.ku.edu/graduate-admissions"> Information
+         for Prospective Graduate Students</a> link on the KU Hydrogeology page for additional information
+         about support and how to apply.
+         Contact <a a href= "mailto: katecollins@ku.edu"><b>Kate Collins</b></a> with your general
+         questions; her contact information is on that linked page.
+         If you have more specific questions or concerns about any of this information, or your qualifications for graduate school
+         in the KU hydrogeology program here, I would be very pleased to hear from you.  Please
+         <a href="index.html#Contact">contact me</a> at your convenience.
+         </P>
+         </font>
+    </td>
+</tr>
+</table>
+
+<P>
+    <center>
+         <b><font face="Arial"><font color="DarkgreenC"><font size=-2 COLOR="Darkgreen">Last Updated</FONT><BR>
+         <FONT SIZE=-2>Oct 15, 2024</FONT></font></font></b>
+    </center>
+</P>
+
+
+
+</body>
+</html>
